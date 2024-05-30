@@ -62,7 +62,7 @@ function scrollToBottom() {
     mainElement.scrollTop = mainElement.scrollHeight;
 }
 
-mapboxgl.accessToken = 'pk.eyJ1IjoieXVudXNpeSIsImEiOiJjbHdnMXQzN3AwMDc1MmttbG12c290bjN6In0._NWpdMINpO-YJSzh4U1qbQ';
+mapboxgl.accessToken = '';
 var INITIAL_CENTER = [69.276004, 41.303675];
 var mapStyle = 'mapbox://styles/mapbox/standard';
 // var mapStyle = 'mapbox://styles/mapbox/outdoors-v12';
@@ -75,13 +75,13 @@ const map = new mapboxgl.Map({
 });
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD3EaZvqFD9Ct9Z_z2ZxThzBav6SNb1gO8",
-    authDomain: "iot-gps-project.firebaseapp.com",
-    databaseURL: "https://iot-gps-project-default-rtdb.firebaseio.com",
-    projectId: "iot-gps-project",
-    storageBucket: "iot-gps-project.appspot.com",
-    messagingSenderId: "557963742598",
-    appId: "1:557963742598:web:dcf0deae6f09e074d83007"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 firebase.initializeApp(firebaseConfig);
