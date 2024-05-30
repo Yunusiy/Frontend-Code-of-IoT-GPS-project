@@ -1,6 +1,7 @@
 # GPS Dashboard
 
 This project is a web-based dashboard for tracking and displaying real-time GPS data using an ESP32. The GPS data includes longitude, latitude, speed, altitude, direction, and more. The dashboard uses Firebase for data storage and Mapbox for map visualization.
+![image](https://github.com/Yunusiy/Frontend-Code-of-IoT-GPS-project/assets/89139698/a6551632-4c7c-40d5-9699-3186aa30e251)
 
 ## Table of Contents
 
